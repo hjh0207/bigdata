@@ -5,7 +5,7 @@ headers = {'User-Agent' : 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)AppleWebKit/
 data = requests.get('https://movie.naver.com/movie/sdb/rank/rmovie.naver?sel=cur',headers=headers)	
 	
 soup = BeautifulSoup(data.text, 'html.parser')	
-# print(soup)	
+#print(soup)	
 # 내가 원하는 위치에 있는 데이터 가져오기	
 '''
 여기는 여러줄로 설명할수 있어요	
