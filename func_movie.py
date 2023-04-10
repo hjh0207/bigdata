@@ -22,4 +22,4 @@ def get_dmv():
         txt_date = tr.select_one(".txt_info > span.txt_num")
         m_list.append([rank, a_tag.text, txt_grade.text, txt_num.text, txt_date.text])
     
-return m_list
+    return m_list

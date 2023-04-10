@@ -15,6 +15,6 @@ write_ws['E1'] = '개봉날짜'
 m_list = func_movie.get_dmv()
 for m in m_list:
     #행 단위로 추가
-    write_ws.append([m])
+    write_ws.append(m)
 
 write_wb.save('함수로가져온영화정보.xlsx')
